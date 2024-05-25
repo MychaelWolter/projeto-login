@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+}
+
+header p {
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+header img {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+main {
+    height: 89vh;
+    background-image: url('../imagens/fundo.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+main > section {
+    background-color: rgba(0, 0, 0, 0.700);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.400)
+}
+
+section h1 {
+    text-align: center;
+    margin: 0px 30px 40px;
+    font-variant: small-caps;
+}
+
+p.input {
+    background-color: cornsilk;
+    color: black;
+    font-weight: bold;
+    font-size: 0.7em;
+    padding: 5px;
+    padding-left: 5px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+p#forgot {
+    font-size: smaller;
+    text-align: center;
+}
+
+p#forgot a {
+    text-decoration: none;
+    color: white;
+}
+
+p#forgot:hover a {
+    text-decoration: underline;
+}
+
+p#open { 
+    background-color: lightseagreen;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 10px 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+p#open a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > p {
+    padding: 5px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
